@@ -1,19 +1,29 @@
+* { box-sizing: border-box; }
+
 body { margin: 0; }
 
 .row:before, .row:after { content: " "; display: table; }
 
 .row:after { clear: both; }
 
+row { text-align: center; }
+
 .container { width: 100%; margin: 0 auto; max-width: 1400px; }
 
-header > nav ul { float: right; margin: 0; padding: 0; list-style-type: none; }
+header > nav ul { float: right; margin-top: 50px; margin-right: 230px; padding: 0; list-style-type: none; }
 
 header > nav ul > li { display: inline-block; }
 
 header > nav ul > li > a { line-height: 50px; display: block; color: #fff; padding: 0 20px; text-decoration: none; text-transform: uppercase; }
 
-header > nav ul > li > a:hover { background: #ccc; }
+.logo { font-size: 26px; font-family: "Wisdom"; color: white; line-height: 1.577; text-align: left; position: absolute; margin-top: 50px; margin-left: 235px; display: block; }
 
-.logo { font-size: 26px; font-family: "Wisdom"; color: white; line-height: 1.577; text-align: left; position: absolute; left: 235.937px; top: 37.499px; z-index: 246; display: block; }
+.hero { background-image: url("/Users/ggebala/projects/landingPage/images/headerPicture.jpg"); height: 800px; background-position: center; background-repeat: no-repeat; background-size: cover; margin: 0 auto; }
 
-.hero { background-image: url("/Users/ggebala/projects/landingPage/images/headerPicture.jpg"); height: 800px; background-position: center; background-repeat: no-repeat; background-size: cover; margin: 0 auto; margin-bottom: 75px; }
+.slogan { text-align: center; position: relative; margin-top: 277px; }
+
+.welcome { font-size: 40px; font-family: "DroidSerif"; color: white; font-style: italic; line-height: 1.2; text-align: center; position: relative; margin: 0; }
+
+.nice { font-size: 75px; font-family: "Montserrat"; color: white; font-weight: bold; text-transform: uppercase; line-height: 1.2; text-align: center; position: relative; margin-top: 50px; margin-bottom: 60px; }
+
+.more { border-radius: 3px; background-color: #fed136; position: relative; width: 240px; height: 65px; }
