@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+
+.row:after {
+    clear: both;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+header > nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header > nav ul > li {
+  display:inline-block;
+}
+
+header > nav ul > li > a {
+  line-height: 50px;
+  display: block;
+  color: #fff;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header > nav ul > li > a:hover {
+  background: #ccc;
+}
+
+
+.logo {
+  font-size: 26px;
+  font-family: "Wisdom";
+  color: rgb(255, 255, 255);
+  line-height: 1.577;
+  text-align: left;
+  position: absolute;
+  left: 235.937px;
+  top: 37.499px;
+  z-index: 246;
+  display: block;
+
+}
+
+.hero {
+	background-image: url('/Users/ggebala/projects/landingPage/images/headerPicture.jpg');
+	height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
