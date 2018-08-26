@@ -171,6 +171,7 @@ header > nav ul li > a {
 .second_paragraph {
   background: #f7f7f7;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .photos_first_row {
@@ -205,5 +206,14 @@ header > nav ul li > a {
   color: #a2a2a2;
   margin-top: 0;
   font-style: italic;
+}
+
+.about_us_row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 /*# sourceMappingURL=style.prefixed.css.map */

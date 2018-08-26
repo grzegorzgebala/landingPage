@@ -157,21 +157,22 @@ header > nav ul {
 .second_paragraph {
   background: rgb(247, 247, 247);
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .photos_first_row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .photos {
-      display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    margin: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  margin: 35px;
 }
 
 .photo_title {
@@ -184,4 +185,10 @@ header > nav ul {
   color: rgb(162, 162, 162);
   margin-top: 0;
   font-style: italic;
+}
+
+.about_us_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
