@@ -115,26 +115,37 @@ header > nav ul li > a {
 }
 
 .services {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
   margin-top: 120px;
 }
 
 .icons {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   width: 70%;
   margin: 80px auto;
 }
 
 .complex {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
   text-align: center;
   padding: 0 1%;
 }
@@ -144,9 +155,12 @@ header > nav ul li > a {
   border-radius: 50%;
   height: 70px;
   width: 70px;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .icon-name {
@@ -160,16 +174,23 @@ header > nav ul li > a {
 }
 
 .photos_first_row {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .photos {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   background: #fff;
   margin: 35px;
 }
@@ -185,5 +206,4 @@ header > nav ul li > a {
   margin-top: 0;
   font-style: italic;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
