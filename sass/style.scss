@@ -111,7 +111,7 @@ header > nav ul {
 }
 
 .first_paragraph {
-  backgroud: #fff;
+  padding-top: 120px;
 }
 
 .services {
@@ -119,7 +119,16 @@ header > nav ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 120px;
+  
+  h1 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  p {
+    font-style: italic;
+    color: rgb(137, 137, 137);
+    margin: 0;
+  }
 }
 
 .icons {
@@ -187,8 +196,127 @@ header > nav ul {
   font-style: italic;
 }
 
-.about_us_row {
+.third_paragraph {
+  padding-top: 120px;
+}
+
+.about_us_row_left {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 3%;
+}
+
+.about_us_row_right {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 3%;
+}
+
+.about_us_description_left {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 92.5px);
+  padding-left: 20%;
+  padding-right: 2%;
+  text-align: right;
+}
+
+.about_us_description_right {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 92.5px);
+  padding-right: 20%;
+  padding-left: 2%;
+  text-align: left;
+}
+
+.about_us_year {
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.about_us_des_year {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about_us_par {
+  margin: 0;
+}
+
+.about_us_our_story_row {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 3%;
+  padding-bottom: 120px;
+}
+
+.about_us_our_story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 7px solid rgb(241, 241, 241);
+  border-radius: 50%;
+  height: 175px;
+  width: 175px;
+  background: rgb(254, 209, 54);
+
+  p {
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+}
+
+.team_persons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 40px;
+}
+
+.person_name {
+  font-weight: bold;
+  margin: 0;
+  margin: 10px 0;
+}
+
+.person_position {
+  margin: 0;
+  color: rgb(119, 119, 119);
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.persons_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+
+  p {
+    width: 50%;
+  }
 }
