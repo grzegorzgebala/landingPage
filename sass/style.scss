@@ -26,10 +26,7 @@ row {
 }
 
 header > nav ul {
-  float: right;
-  margin-top: 50px;
-  margin-right: 230px;
-  padding: 0;
+  padding-right: 10%;
   list-style-type: none;
 
  > li {
@@ -46,16 +43,19 @@ header > nav ul {
 }
 }
 
+.top_menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
 .logo {
   font-size: 26px;
-  font-family: "Wisdom";
-  color: rgb(255, 255, 255);
-  line-height: 1.577;
-  text-align: left;
-  position: absolute;
-  margin-top: 50px;
-  margin-left: 235px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(240, 198, 54);
   display: block;
+  padding-right: 25%;
 
 }
 
