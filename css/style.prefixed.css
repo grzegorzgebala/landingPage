@@ -406,4 +406,151 @@ header > nav ul li > a {
   -ms-flex-align: center;
       align-items: center;
 }
+
+.logo_paragraph {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 40px 0;
+}
+
+.last_services {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin-bottom: 80px;
+  color: white;
+}
+
+.logo_picture {
+  margin-right: 2.85%;
+}
+
+.last_paragraph {
+  background: #222222 url("../images/Map_image.png") no-repeat right top;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.input_area {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.input_area .left_inputs {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  height: 200px;
+}
+
+.input_area .right_input {
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-left: 20px;
+}
+
+.input_area .input_container {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: end;
+      align-items: flex-end;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.left_inputs input {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 64%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-left: 15px;
+  font-weight: bold;
+  color: #bbbbbb;
+}
+
+.textarea_container {
+  height: 200px;
+  width: 64%;
+}
+
+.textarea_container textarea {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-left: 15px;
+  font-weight: bold;
+  color: #bbbbbb;
+  padding-top: 15px;
+}
+
+.send_button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-top: 30px;
+}
+
+footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 20px 0;
+}
+
+footer a {
+  display: inline-block;
+}
+
+footer .footer_social {
+  display: -ms-flexbox;
+  display: flex;
+  width: 56%;
+}
+
+footer .copyright {
+  width: 43%;
+  text-align: center;
+}
 /*# sourceMappingURL=style.prefixed.css.map */
